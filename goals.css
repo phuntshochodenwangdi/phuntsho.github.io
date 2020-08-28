@@ -1,0 +1,214 @@
+h1{
+position:left;
+padding-left:60px;
+padding-top:5px;
+}
+
+
+h2{background-color:lavender;
+size:60px;
+text-align: center;
+}
+
+body{background-color:#FFE4E1 ;
+text-align:center;
+font-family:arial;
+background-image:url("f.jpg");}
+   p{
+     background-color:lavenderblush;
+   font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+  border: 10px solid lavender;
+}
+
+ ol{
+   background-color:lavenderblush;
+   font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+  border: 10px solid lavender;
+ }
+
+ img{width:45%;
+ length:70%;
+}
+
+header{
+  padding-top:12px;
+  min-height:100px;
+background-color:lavender;
+}
+
+header .Pic1{
+  width:100px;
+  height:100px;
+  float:left;
+  max-width:270px;
+  max-height:90px;
+  vertical-align:text-top;
+  line-height: 82px;
+  position: top;
+  top:19pt;
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+
+header a{
+  color:black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+  max-width: 900px;
+}
+header #branding{
+  float:left;
+  color:black;
+}
+header #branding h1{
+  margin:0;
+  padding-left:60px;
+  padding-top:0;
+padding-bottom:60px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+  padding: 0 0 15px 0;
+}
+header .highlight, header .current a{
+  font-weight: bold;
+  color:black;
+  font-family:"Century Gothic";
+}
+header a{
+  color:black;
+  font-weight: bold;
+}
+header a:hover{
+  color:black;
+  background-color:pink;
+  font-weight: bold;
+}
+
+
+
+
+/*
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "paprika";
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color:lavender;
+  position:static;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color:;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color:black;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #FFFFFF;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+*/
+footer {
+  display: block;
+  text-align: center;
+ padding: 1px;
+ background-color:lavender;
+ color:black;
+ height:10px;
+}
